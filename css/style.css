@@ -153,6 +153,10 @@ span.s{
     margin-bottom: 9px;
 }
 
+#About a{
+    color: #040B14 !important;
+}
+
 .aboutItem{
     margin-bottom: 20px;
     display: block;
@@ -280,10 +284,10 @@ span.s{
 }
 
 footer{
-    background-color: #040B14;   
+    background-color: #040B14;
 }
 
 .footer{
-    position: relative;
+    opacity: 0;
     display: none;
 }

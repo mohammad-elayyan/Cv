@@ -7,6 +7,7 @@
 
 html{
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 a{
@@ -22,14 +23,11 @@ a{
     border: 8px solid;
 }
 
-#PContainer{
-    height: 100vh;
-}
-
 #MContainer ,#MContainerWrap{
     min-width: 300px;
     max-width: 300px;
     background-color: #040B14;
+    overflow-y: auto;
 }
 
 .navbar button{
@@ -63,11 +61,6 @@ a{
     height: 1px !important;
     margin-bottom: 0 !important;
     top: 0 !important;
-}
-
-#CContainer{
-    overflow-y: auto;
-    scroll-behavior: smooth;
 }
 
 #CContainerWrap{
@@ -151,10 +144,6 @@ span.s{
     margin-top: 9px;
     background: crimson;
     margin-bottom: 9px;
-}
-
-#About a{
-    color: #040B14 !important;
 }
 
 .aboutItem{
@@ -284,7 +273,7 @@ span.s{
 }
 
 footer{
-    background-color: #040B14;
+    background-color: #040B14;   
 }
 
 .footer{

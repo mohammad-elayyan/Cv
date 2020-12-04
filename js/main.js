@@ -38,14 +38,14 @@ let nCount = function (selector) {
 };
 
 let a = 0;
-$("#CContainer").scroll(function () {
-    let oTop = $(".chart").offset().top;
+$(window).scroll(function () {
+    let oTop = $(".chart").offset().top - innerHeight;
     if (a == 0 && $(this).scrollTop() >= oTop) {
         a++;
         nCount('.percent');
         pie('.chart');
     }
-    if(innerHeight-$("#Home").offset().top >= 790){
+    if($(this).scrollTop() >= $("#About").offset().top - innerHeight){
         $(".top").css("display","flex");
     }
     else{

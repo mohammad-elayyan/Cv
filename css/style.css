@@ -146,6 +146,14 @@ span.s{
     margin-bottom: 9px;
 }
 
+#About a{
+    color: navy !important;
+}
+
+#About a:hover{
+    text-decoration: underline !important;
+}
+
 .aboutItem{
     margin-bottom: 20px;
     display: block;

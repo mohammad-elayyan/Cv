@@ -53,6 +53,8 @@ $(window).scroll(function () {
     }
 });
 
+    $('.venobox').venobox();
+
 AOS.init();
 
 });

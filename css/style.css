@@ -6,7 +6,7 @@
 }
 
 html{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     scroll-behavior: smooth;
 }
 
@@ -63,11 +63,11 @@ a{
     top: 0 !important;
 }
 
-#CContainerWrap{
+/* #CContainerWrap{
     max-width: 300px;
     min-width: 300px;
     position: absolute;
-}
+} */
 
 .position{
     position: initial;
@@ -216,7 +216,7 @@ span.s{
 
 .info, .form{
     margin: 100%;
-    padding: 20px 30px;
+    padding: 30px 30px;
     margin: 20px auto;
     box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.12);
 }
@@ -242,7 +242,7 @@ span.s{
     transition: all .3s ease-in-out;
 }
 
-.infoItem h4{
+.infoItem h5{
     display: inline-block;
     padding-left: 20px;
     margin-top: 15px;
@@ -262,6 +262,15 @@ span.s{
     color: white;
 }
 
+.map iframe{
+    width: 100%;
+    border:1px solid crimson;
+    transition: all .3s ease-in-out;
+}
+
+.map iframe:hover{
+    transform: scale(1.02);
+}
 .top{
     position: fixed;
     right: 30px;
@@ -287,4 +296,17 @@ footer{
 .footer{
     opacity: 0;
     display: none;
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: crimson;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar:hover{
+    width: 11px;
 }

@@ -27,7 +27,8 @@ a{
     min-width: 300px;
     max-width: 300px;
     background-color: #040B14;
-    overflow-y: auto;
+    overflow-y: visible;
+    overflow-x: hidden !important;
 }
 
 .navbar button{

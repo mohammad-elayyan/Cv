@@ -1,29 +1,30 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto Slab', serif;
 }
 
-html{
+html {
     overflow-x: hidden !important;
     scroll-behavior: smooth;
 }
 
-a{
+a {
     color: #fff !important;
     text-decoration: none !important;
 }
 
-.bd{
+.bd {
     background-color: #212431;
 }
 
-.border-5{
+.border-5 {
     border: 8px solid;
 }
 
-#MContainer ,#MContainerWrap{
+#MContainer,
+#MContainerWrap {
     min-width: 300px;
     max-width: 300px;
     background-color: #040B14;
@@ -31,13 +32,13 @@ a{
     overflow-x: hidden !important;
 }
 
-.navbar button{
+.navbar button {
     border: none;
     outline: none;
     margin: 8px 0;
 }
 
-.navbar .burger{
+.navbar .burger {
     width: 60px;
     height: 60px;
     display: flex;
@@ -45,10 +46,10 @@ a{
     justify-content: center;
     align-items: center;
     border: 2px solid #343A40;
-    border-radius: 100%; 
+    border-radius: 100%;
 }
 
-.navbar .burger .bar{
+.navbar .burger .bar {
     position: relative;
     top: 2px;
     width: 32px;
@@ -58,7 +59,7 @@ a{
     transition: all .2s ease-in-out;
 }
 
-.burger:not(.show) .bar{
+.burger:not(.show) .bar {
     height: 1px !important;
     margin-bottom: 0 !important;
     top: 0 !important;
@@ -70,30 +71,30 @@ a{
     position: absolute;
 } */
 
-.position{
+.position {
     position: initial;
 }
 
-#CContainer section{
+#CContainer section {
     margin-bottom: 8%;
 }
 
-#MContainer i{
+#MContainer i {
     font-size: 16px;
     transition: all .3s ease-in-out;
 }
 
-#MContainer a:hover i{
+#MContainer a:hover i {
     color: crimson;
     transform: scale(1.09);
 }
 
-.MContainerFooter{
+.MContainerFooter {
     font-size: 15px;
 }
 
-#Home{
-    
+#Home {
+
     background-image: url('../images/hero-bg.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -102,42 +103,42 @@ a{
     position: relative;
 }
 
-#Home h3{
+#Home h3 {
     font-size: 35px;
     font-weight: 400;
     letter-spacing: 2px;
 }
 
-span.s{
+span.s {
     display: inline;
     color: crimson;
 }
 
-#Home > div{
+#Home>div {
     height: 100vh;
     background: rgba(0, 0, 0, .7);
 }
 
-.typedHome{
+.typedHome {
     border-bottom: 1px solid crimson;
     font-size: 110%;
     padding-bottom: 4px;
 }
 
-.collapsing{
+.collapsing {
     position: relative;
     height: 0;
     overflow: hidden;
     transition: none;
 }
 
-.sectionTitle{
+.sectionTitle {
     padding-top: 20px;
     font-size: 150%;
     font-weight: 500;
 }
 
-.sectionTitle::after{
+.sectionTitle::after {
     content: '';
     display: block;
     width: 50px;
@@ -147,20 +148,20 @@ span.s{
     margin-bottom: 9px;
 }
 
-#About a{
+#About a {
     color: navy !important;
 }
 
-#About a:hover{
+#About a:hover {
     text-decoration: underline !important;
 }
 
-.aboutItem{
+.aboutItem {
     margin-bottom: 20px;
     display: block;
 }
 
-.percent{
+.percent {
     position: relative;
     line-height: 1;
     font-size: 40px;
@@ -168,12 +169,12 @@ span.s{
     z-index: 2;
 }
 
-.percent::after{
+.percent::after {
     content: attr(data-after);
     font-size: 20px;
 }
 
-.box .chart{
+.box .chart {
     position: relative;
     width: 140px;
     margin: 0 auto;
@@ -181,29 +182,30 @@ span.s{
     line-height: 150px;
 }
 
-.box canvas{
+.box canvas {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.box h5{
+.box h5 {
     text-align: center;
     text-transform: uppercase;
 }
 
-.resumeItem{
+.resumeItem {
     border-left: 3px solid black;
     padding-left: 20px;
     margin-top: 20px;
 }
 
-.resumeItem *{
+.resumeItem * {
     position: relative;
     top: -18px;
 }
 
-.resumeItem::before,.innerResumeItem::before{
+.resumeItem::before,
+.innerResumeItem::before {
     content: '';
     width: 15px;
     height: 15px;
@@ -215,25 +217,26 @@ span.s{
     border: 2px solid black;
 }
 
-.info, .form{
+.info,
+.form {
     margin: 100%;
     padding: 30px 30px;
     margin: 20px auto;
     box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.12);
 }
 
-.infoItem{
+.infoItem {
     margin-bottom: 13px;
 }
 
-.infoItem i{
+.infoItem i {
     font-size: 25px;
     color: crimson;
     margin-top: 3px;
     transition: all .3s ease-in-out;
 }
 
-.infoItem span:first-child{
+.infoItem span:first-child {
     width: 55px;
     height: 55px;
     background: #DFF3FC;
@@ -243,41 +246,41 @@ span.s{
     transition: all .3s ease-in-out;
 }
 
-.infoItem h5{
+.infoItem h5 {
     display: inline-block;
     padding-left: 20px;
     margin-top: 15px;
 }
 
-.infoItem p{
+.infoItem p {
     padding-left: 20px;
     font-size: 14px;
     color: #173b6c;
 }
 
-.infoItem:hover span:first-child{
+.infoItem:hover span:first-child {
     background: crimson;
 }
 
-.infoItem:hover span i{
+.infoItem:hover span i {
     color: white;
 }
 
-.map iframe{
+.map iframe {
     width: 100%;
-    border:1px solid crimson;
+    border: 1px solid crimson;
     transition: all .3s ease-in-out;
 }
 
-.map iframe:hover{
+.map iframe:hover {
     transform: scale(1.02);
 }
-.top{
+
+.top {
     position: fixed;
     right: 30px;
     bottom: 20px;
-    background: crimson;
-    opacity: .8;
+    background: rgba(220, 20, 60, .85);
     width: 42px;
     height: 42px;
     z-index: 2;
@@ -287,27 +290,27 @@ span.s{
     justify-content: center;
     align-items: center;
     font-size: 25px;
-    display:none;
+    display: none;
 }
 
-footer{
-    background-color: #040B14;   
+footer {
+    background-color: #040B14;
 }
 
-.footer{
+.footer {
     opacity: 0;
     display: none;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 6px;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background-color: crimson;
     border-radius: 15px;
 }
 
-::-webkit-scrollbar:hover{
+::-webkit-scrollbar:hover {
     width: 11px;
 }
